@@ -35,4 +35,5 @@ jobs:
     - name: Upload jar file
       uses: actions/upload-artifact@v3
       with:
+        name: PortalGUI
         path: build/libs/PortalGUI-*.jar
