@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "portalgui",
+  "version": "${version}",
+  "name": "Portal GUI",
+  "description": "Prevents portals from closing your GUI",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/mekb-turtle/PortalGUI"
+  },
+  "license": "MPL-2.0",
+  "icon": "assets/portalgui/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [],
+    "client": []
+  },
+  "mixins": [
+    "portalgui.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "1.20.x"
+  }
+}
